@@ -10,10 +10,10 @@
      when: ansible_os_family =="Debian"
   
   - name: i want to install webserver on ubuntu node
-    services:
+     services:
       name: apache2
       state: started
-      when: ansible_os_family =="Debian"
+       when: ansible_os_family =="Debian"
 
 
 
