@@ -3,7 +3,7 @@
   become: yes 
   tasks:
   - name: i want to install webserver on ubuntu node
-    yum:
+    ansible.builtin.dnf:
      name: apache2
      state: present 
   
