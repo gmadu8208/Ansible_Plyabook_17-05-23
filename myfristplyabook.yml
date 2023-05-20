@@ -9,9 +9,9 @@
       state: present 
     when: ansible_os_family =="Debian"
   
-  - name: i want to install webserver on ubuntu node
+  - name: i want to install webserver on RedHat node
     services:
-       name: apache2
+       name: RedHat
        state: started
     when: ansible_os_family =="Debian"
 
