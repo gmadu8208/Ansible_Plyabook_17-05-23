@@ -1,4 +1,18 @@
+[mywebsers]
 172.31.10.217
 172.31.4.185
+
+[myappsrver]
+172.31.4.188
+172.31.4.186
+
+[mydbserver]
+172.31.4.156
+172.31.4.567
+
+
+
+# myserverpactonubuntu: apche22222222
+# myserverpactonRedHat: httpd
 
 

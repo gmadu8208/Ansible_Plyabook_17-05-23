@@ -1,28 +1,29 @@
 ---
-- hosts: all
+- hosts: [myappsrver]
+
   become: yes 
   gather_facts: yes
   tasks:
   - name: i want to install webserver on ubuntu node
     apt:
-      name: apache2
+      name: "{{myserverpactonubuntu}}"
       state: present 
     when: ansible_os_family =="Debian"
   
-  - name: i want to install webserver on ubuntu node
+  - name: i want to start webserver on ubuntu node
     service:
-       name: apache2
+       name: "{{myserverpactonubuntu}}"
        state: started
     when: ansible_os_family =="Debian"
 
   - name: i want to install webserver on RedHat node
     ansible.builtin.dnf:
-      name: httpd
+      name: "{{myserverpactonRedHat}}"
       state: present
     when: ansible_os_family =="RedHat"
-  - name: i wnat to install webserver on RedHat node
+  - name: i wnat to start webserver on RedHat node
     service:
-        name: httpd
+        name: "{{myserverpactonRedHat}}"
         state: started
     when: ansible_os_family =="RedHat"
 
