@@ -1,6 +1,5 @@
 ---
-- hosts: [mywebsers]
-
+- hosts: mywebsers
   become: yes 
   gather_facts: yes
   tasks:
