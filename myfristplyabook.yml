@@ -1,5 +1,5 @@
 ---
-- hosts: [myappsrver]
+- hosts: [mywebsers]
 
   become: yes 
   gather_facts: yes
