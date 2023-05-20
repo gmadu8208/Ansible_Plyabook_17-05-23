@@ -12,7 +12,7 @@
 
 
 
-myserverpactonubuntu: apache2
-myserverpactonRedHat: httpd
+myserverpactonubuntu= apache2
+myserverpactonRedHat= httpd
 
 
