@@ -12,7 +12,9 @@
 
 
 
-myserverpactonubuntu== apache2
-myserverpactonRedHat== httpd
+[mywebsers:vars]
+myvar01= abc
+myserverpactonubuntu= apache222222
+myserverpactonRedHat= httpd
 
 
