@@ -14,7 +14,7 @@
 
 [mywebsers:vars]
 myvar01= abc
-myserverpactonubuntu= apache222222
+myserverpactonubuntu= apache2
 myserverpactonRedHat= httpd
 
 
