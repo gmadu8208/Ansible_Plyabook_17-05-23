@@ -12,9 +12,3 @@
 
 
 
-[mywebsers:vars]
-myvar01= abc
-myserverpactonubuntu= nginx
-myserverpactonRedHat= httpd
-
-
