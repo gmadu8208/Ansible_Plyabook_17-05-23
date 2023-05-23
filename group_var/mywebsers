@@ -1,8 +1,7 @@
 ---
 myvar01: abc123
-myserverpactonubuntu: apache2222222
+myserverpactonubuntu: apache2
 myserverpactonRedHat: httpd
-
 myjavaonubuntu: openjdk-8-jdk
 myjavaonredhat: java-1.8.0-amazon-corretto-devel
 
