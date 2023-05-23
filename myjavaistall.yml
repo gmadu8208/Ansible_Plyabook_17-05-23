@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: mywebsers
   become: yes
   tasks:
   - name: install java on ubuntu
