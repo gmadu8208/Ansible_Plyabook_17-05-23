@@ -11,6 +11,6 @@
 
   - name: install java on RedHat 
     ansible.builtin.dnf:
-       name: "{{myjavaonredha}}"
+       name: "{{myjavaonredhat}}"
        state: present 
     when: ansible_os_family =="RedHat" 
