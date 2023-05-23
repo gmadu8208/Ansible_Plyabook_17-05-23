@@ -1,4 +1,5 @@
-
-myserverpactonubuntu: apache2
+---
+myvar01: abc123
+myserverpactonubuntu: apache2222222
 myserverpactonRedHat: httpd
 
