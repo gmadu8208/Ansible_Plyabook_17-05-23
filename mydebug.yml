@@ -1,6 +1,6 @@
 ---
 - hosts: 172.31.10.217
   become: yes
-  task: 
+  tasks: 
   - name: i want to install direct linex command
     command: hostname -f
