@@ -17,12 +17,12 @@
     apt:
       name: git
       state: present
-    when: myfristtaskresult.srderr ==""
+    when: myfristtaskresult.stderr ==""
 
   - name: install tree
     apt: 
       name: tree
       state: present
-    when: myfristtaskresult.srderr !=""   
+    when: myfristtaskresult.stderr !=""   
 
     
