@@ -5,11 +5,12 @@
   - name: install git
     apt: 
      name: git
-     statee: present 
+     state: present 
   - name: tree 
     apt: 
       name: tree 
-      state: present
+      statee: present
+    ignore_errors: yes
 
   - name: wget
     apt:
