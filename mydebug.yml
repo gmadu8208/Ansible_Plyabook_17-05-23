@@ -11,3 +11,18 @@
   - name: i want to frist task result 
     debug:
        msg: "{{myfristtaskresult}}"   
+  
+
+  - name: install git
+    apt:
+      name: git
+      state: present
+    when: myfristtaskresult.srderr ==""
+
+  - name: install tree
+    apt: 
+       name: tree
+       state: present
+    when: myfristtaskresult.srderr !=""   
+
+    
