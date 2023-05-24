@@ -1,0 +1,22 @@
+---
+- hosts:
+  become: yes
+  tasks:
+  - name: install git
+    apt:
+     name: git
+     state: present
+     tags: mygit
+
+  - name: install tree 
+    apt:
+    state: present 
+    tags: mytree
+
+
+  - name: install wgat
+    apt:
+    state: present 
+    tags: mywget  
+
+
