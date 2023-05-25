@@ -20,17 +20,20 @@
     notify: restartwebserver
 
 
+
+  - name: downloade internate file
+    get_url:
+       url: https://sg.mirror.servanamanaged.com/jenkins/windows-stable/2.387.3/jenkins.msi
+       dest: /home/ubuntu/jenkins.msi
+       force_basic_auth: yes
+
+
+
   handlers:  
   - name: restartwebserver
     service:
         name: apache2
         state: restarted
 
-  - name: downloade internate file
-    get_url:
-         url: https://sg.mirror.servanamanaged.com/jenkins/windows-stable/2.387.3/jenkins.msi
-         dest: /home/ubuntu/jenkins.msi
-         force_basic_auth: yes
-
-
+ 
 
