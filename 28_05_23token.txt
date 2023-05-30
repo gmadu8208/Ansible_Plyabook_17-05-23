@@ -1,1 +1,14 @@
 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
+
+
+Ahll$0996
+
+git config --global user.email "gmadu8208@gmail.com"
+
+
+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
+
+git config --global user.name "gmadu8208"
+
+
+172.31.10.217
