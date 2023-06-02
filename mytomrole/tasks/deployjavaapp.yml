@@ -4,3 +4,10 @@
     url: https://tombucket28may.s3.us-east-2.amazonaws.com/login.war
     dest: /opt/tomcat/webapps
     force_basic_auth: yes
+
+
+- name: deploy game application on webaaps
+  get_url:
+    url: https://tombucket28may.s3.us-east-2.amazonaws.com/gameoflife.war
+    dest: /opt/tomcat/webapps
+    force_basic_auth: yes
