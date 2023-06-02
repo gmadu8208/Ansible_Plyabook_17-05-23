@@ -1,5 +1,5 @@
 ---
-- name: copy touser file into node side 
+- name: copy tomuser file into node side 
   templete: 
     src: templetes/mytomuser.j2
     dest: /opt/tomcat/conf/tomcat-users.xml
